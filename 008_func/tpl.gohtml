@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>functions</title>
+</head>
+<body>
+
+{{(index .Wisdom 0).Name}}
+{{(index .Wisdom 1).Name}}
+{{(index .Wisdom 2).Name}}
+
+{{(uc (index .Wisdom 0).Name)}}
+{{(uc (index .Wisdom 1).Name)}}
+{{(uc (index .Wisdom 2).Name)}}
+
+
+{{(ft (index .Wisdom 0).Name)}}
+{{(ft (index .Wisdom 1).Name)}}
+{{(ft (index .Wisdom 2).Name)}}
+
+
+{{(uc (index .Wisdom 2).Name)}}
+{{(ft (index .Transport 1).Manufacturer)}}
+{{(ft (index .Transport 1).Model)}}
+
+
+</body>
+</html>
